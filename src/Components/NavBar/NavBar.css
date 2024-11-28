@@ -1,0 +1,110 @@
+.NavBar_Component{
+   width: 100vw;
+   height: 60px;
+   background-color: #131A22;
+   display: flex; 
+}
+.NavBar_logo{
+   background: url('https://ik.imagekit.io/amazon2020/amazon-image/amazon-image/sprite_350x.png?updatedAt=1732271835318') no-repeat -9px -50px;
+	width: 98px;
+	height: 31px;
+   margin: 18px;
+}
+.NavBar_locator{
+   display: flex;
+   margin: 20px 0px;
+}
+.NavBar_location{
+   color: wheat;
+   font-weight: bold;
+   margin-left: 5px;
+}
+.NavBar_locatorImage{
+   
+   background: url('https://ik.imagekit.io/amazon2020/amazon-image/amazon-image/sprite_350x.png?updatedAt=1732271835318') no-repeat -70px -305px;
+	width: 19px;
+	height: 22px;
+}
+.NavBar_Searchcomponent{
+   
+    
+    display: flex;
+  
+
+}
+.NavBar_Searchbar{
+  width: 640px;
+  height: 38px;
+  margin-top: 8px; 
+}
+.NavBar_Seachicon{
+   background: url('https://ik.imagekit.io/amazon2020/amazon-image/amazon-image/sprite_350x.png?updatedAt=1732271835318') no-repeat -9px -289px;
+	width: 23px;
+	height: 23px; 
+   background-color: bisque;
+   height: 44px;
+   width: 48px;
+   border-radius: 0px 5px 5px 0px;
+}
+.NavBar_Seachbardiv{
+   background-color: bisque;
+   height: 44px;
+   width: 48px;
+   border-radius: 0px 5px 5px 0px;
+   margin-top: 8px;  
+}
+.NavBar_dropdown{
+   width: 60px;
+   height: 44px;
+   margin-top: 8px;
+   background-color: azure;
+   border-radius: 5px 0px 0px 5px;
+   text-align-last: center;
+}
+.NavBar_signin{
+width: 120px;
+margin-top: 10px;
+margin-left: 50px;
+}
+.NavBar_returns{
+width: 80px;
+margin-top: 10px;
+margin-left: 10px;
+
+}
+.NavBar_cart{
+display: flex;
+margin: 10px;
+}
+.NavBar_text{
+   color: white;
+   
+}
+.cart_image{
+   background: url('https://ik.imagekit.io/amazon2020/amazon-image/amazon-image/sprite_350x.png?updatedAt=1732271835318') no-repeat -9px -339px;
+   width: 40px;
+	height: 28px;
+}
+.NavBar_text_cart{
+margin-top: 20px;
+font-weight: bold;
+}
+.cart_item{
+   font-weight: bold;
+   position: relative;
+   left: -20px;
+   top: -4px;
+   color: chocolate;
+}
+.NavBar_footer{
+   width: 100vw;
+   background: #22303e;
+   color: white;
+   height: 40px;
+   display: flex;
+}
+.NavBar_footer_text{
+   margin: 5px 10px;
+   font-size: 15px;
+   font-weight: bold;
+}
