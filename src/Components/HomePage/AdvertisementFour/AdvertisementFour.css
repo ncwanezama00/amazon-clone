@@ -1,8 +1,9 @@
 .AdvertisementOne_main{
     height: 388px;
-    width: 336px;
+   
     background: white;
     margin: 10px;
+    min-width: 336px;
 }
 .AdvertisementOne_header{
 font-size: 21px;
@@ -12,8 +13,14 @@ padding: 15px;
 }
 .AdvertisementOne_body{
 padding-left:  15px;
+display: flex;
+flex-wrap: wrap;
 }
-.ad
+.ad_fourImage{
+  width: 140px;
+  height: 100px;  
+  margin: -5px;
+}
 .AdvertisementOne_footer{
 padding: 15px;
 }
